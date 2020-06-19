@@ -1,0 +1,173 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "WeddingInvites",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [{
+      "name": "CanGoWedding"
+    },
+    {
+      "name": "CannotGoWedding"
+    },
+    {
+      "name": "GotBringPlusOne"
+    },
+    {
+      "name": "NeverBringPlusOne"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "WeddingInfo"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [{
+      "text": "cannot go",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "cannot leh",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "i am available",
+      "intent": "CanGoWedding",
+      "entities": []
+    },
+    {
+      "text": "i am not available",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "NeverBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "no boyfriend",
+      "intent": "NeverBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "no girlfriend",
+      "intent": "NeverBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "no i am not available",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "no parterner",
+      "intent": "NeverBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "okay i am available",
+      "intent": "CanGoWedding",
+      "entities": []
+    },
+    {
+      "text": "okay i am not available",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "sorry",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "sorry i am busy",
+      "intent": "CannotGoWedding",
+      "entities": []
+    },
+    {
+      "text": "wedding location?",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "what is the wedding location",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "what time do i need to reach the wedding place",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "what time is the wedding",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "when the wedding is held?",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "where is the wedding at?",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "where is the wedding being held at?",
+      "intent": "WeddingInfo",
+      "entities": []
+    },
+    {
+      "text": "ya",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "ya i bringing my boyfriend",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "ya i bringing my girlfriend",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "yes i am available",
+      "intent": "CanGoWedding",
+      "entities": []
+    },
+    {
+      "text": "yes i bringing her",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    },
+    {
+      "text": "yes i bringing him",
+      "intent": "GotBringPlusOne",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
